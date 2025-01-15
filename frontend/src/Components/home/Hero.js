@@ -20,9 +20,9 @@ function Hero() {
                 <ToastContainer />
                 <section class="hero">
                     <div class="hero-content">
-                        <h1>Find Your Dream Rental Home</h1>
-                        <p>Explore the best homes available for rent in the most sought-after locations.</p>
-                        <Link to="/explore"><button className='me-4' >Explore Homes</button></Link>
+                        <h1>Unlock the Door to Your Next Home</h1>
+                        <p> Discover Your Perfect Home</p>
+                        <Link to="/explore"><button className='me-4' >Discover Homes</button></Link>
                        
                     </div>
 

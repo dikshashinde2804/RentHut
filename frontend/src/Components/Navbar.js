@@ -93,7 +93,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-md bg-body-light border-bottom sticky-top ">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand ms-3">
-                        <h3 className="logo"> RENTORA</h3>
+                        <h3 className="logo"> RENTHUT</h3>
                     </Link>
                     <button
                         className="navbar-toggler"
@@ -105,7 +105,7 @@ function Navbar() {
 
                     <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
-                            <Link className="nav-link nav-content" to="/explore" onClick={closeNavbar}>Explore</Link>
+                            <Link className="nav-link nav-content" to="/explore" onClick={closeNavbar}>Discover</Link>
                             <Link className="nav-link nav-content" to="/addNewHome" onClick={closeNavbar}>Add New Home</Link>
                             <Link className="nav-link nav-content me-4 " to="/about" onClick={closeNavbar}>About Us</Link>
 

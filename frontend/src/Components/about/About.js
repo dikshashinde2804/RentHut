@@ -1,31 +1,28 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
+
 function About() {
   return (
-    <div>
-      <div class="about-section">
+    <div className="about-container">
+      <section className="about-section">
         <h2>About Us</h2>
         <p>
-          At <strong>Rentora</strong>, we believe in making travel feel like home. Whether you're looking for a cozy weekend getaway
-          or a long-term stay, we connect you with beautiful, safe, and conveniently located homes around the world.
-          Our platform is built on trust, quality, and the ease of finding your perfect home away from home.
+          At <strong>RentHut</strong>,  we aim to simplify the process of finding the perfect rental home. Whether you’re 
+          searching for a short-term getaway or a long-term residence, we bring you a wide range of options that are safe, 
+          comfortable, and conveniently located. Our platform empowers users to explore listings, make secure bookings,
+           and enjoy a seamless experience from start to finish.
         </p>
         <p>
-          We are passionate about delivering exceptional service, ensuring that each booking is seamless and stress-free.
-          Our dedicated team works around the clock to ensure that both guests and hosts have the best experience possible.
+        For homeowners, Rentora provides an easy-to-use interface to list, manage, and showcase properties to potential renters. 
+        With our commitment to transparency, trust, and innovation, Rentora is more than just a rental platform—it’s where your next home begins.
+
         </p>
-        <Link to="/" className="navbar-brand">
-          <button className="text-center"> Explore</button>
+        <Link to="/" className="explore-link">
+          <button className="explore-button">Discover</button>
         </Link>
-      </div>
-
-
-
-
-
-
+      </section>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

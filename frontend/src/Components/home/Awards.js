@@ -1,48 +1,57 @@
-import React from 'react'
+import React from 'react';
 
 function Awards() {
     return (
         <div>
-            <section class="features">
-                <h2>Why Rentora?</h2>
-                <div class="feature-container">
-                    <div class="feature">
-                        <i class="fas fa-home"></i>
+            <section className="features">
+                <h2>Why Choose RentHut?</h2>
+                <div className="feature-container">
+                    <div className="feature">
+                        <i className="fas fa-home"></i>
                         <h3>Modern Homes</h3>
-                        <p>Discover a wide range of well-maintained homes that meet your style and budget.</p>
+                        <p>
+                            Explore homes that combine style, functionality, and comfort, tailored to fit your lifestyle.
+                        </p>
                     </div>
-                    <div class="feature">
-                        <i class="fas fa-handshake"></i>
+                    <div className="feature">
+                        <i className="fas fa-handshake"></i>
                         <h3>Secure Booking</h3>
-                        <p>Enjoy a hassle-free booking experience with our secure and user-friendly platform.</p>
+                        <p>
+                            Enjoy a safe and transparent booking process designed to give you peace of mind.
+                        </p>
                     </div>
-                    <div class="feature">
-                        <i class="fas fa-map-marker-alt"></i>
+                    <div className="feature">
+                        <i className="fas fa-map-marker-alt"></i>
                         <h3>Prime Locations</h3>
-                        <p>Choose from homes in the most convenient and desirable locations near you.</p>
+                        <p>
+                            Stay in the heart of the action with homes located in top neighborhoods and destinations.
+                        </p>
                     </div>
-                
-                    <div class="feature">
-                        <i class="fas fa-tags"></i>
+                    <div className="feature">
+                        <i className="fas fa-tags"></i>
                         <h3>Affordable Pricing</h3>
-                        <p>Find the perfect home without stretching your budget. We offer competitive pricing for all our
-                            listings.</p>
+                        <p>
+                            Discover budget-friendly options without compromising on quality or amenities.
+                        </p>
                     </div>
-                    <div class="feature">
-                        <i class="fas fa-headset"></i>
+                    <div className="feature">
+                        <i className="fas fa-headset"></i>
                         <h3>24/7 Support</h3>
-                        <p>We are here to assist you anytime. Our customer support is available 24/7 to ensure a smooth rental
-                            experience.</p>
+                        <p>
+                            Our dedicated support team is always ready to assist you, no matter the time.
+                        </p>
                     </div>
-                    <div class="feature">
-                        <i class="fas fa-shield-alt"></i>
+                    <div className="feature">
+                        <i className="fas fa-shield-alt"></i>
                         <h3>Trusted Listings</h3>
-                        <p>All our listings are verified for your safety and satisfaction. Rent confidently with Rentora.</p>
+                        <p>
+                            Rent with confidence knowing every listing is verified for quality and security.
+                        </p>
                     </div>
                 </div>
             </section>
         </div>
-    )
+    );
 }
 
-export default Awards
+export default Awards;

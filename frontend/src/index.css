@@ -38,7 +38,7 @@ body {
 }
 
 .logo {
-  color: #e63946 !important;
+  color: #008080 !important;
   /* color:  #009688 !important; */
   font-weight: bold;
   text-decoration: none !important;
@@ -65,7 +65,7 @@ body {
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #e63946;
+  color: #008080;
 }
 
 .navbar-toggler {
@@ -113,7 +113,7 @@ body {
 
 .dropdown-item:hover {
   border-radius: 10px;
-  background-color: #d62828 !important;
+  background-color: #004848 !important;
   color: white !important;
 }
 
@@ -184,13 +184,13 @@ body {
 .join-btn {
   font-weight: bolder;
   color: white !important;
-  background-color: #e63946 !important;
+  background-color: #008080 !important;
   border-radius: 25px !important;
   margin-right: 2rem !important;
 }
 
 .join-btn:hover {
-  background-color: #d62828 !important;
+  background-color: #004848 !important;
 }
 
 
@@ -218,7 +218,7 @@ body {
 
 .signup-btn {
   color: white !important;
-  background-color: #e63946 !important;
+  background-color: #008080 !important;
   border-radius: 10px !important;
   border: none;
   padding-bottom: 2rem;
@@ -226,19 +226,19 @@ body {
 }
 
 .login-btn {
-  color: #e63946 !important;
-  border: 2px solid #e63946;
+  color:#008080 !important;
+  border: 2px solid #008080;
   border-radius: 10px !important;
   padding-bottom: 1.9rem !important;
   height: 1.5rem !important;
 }
 
 .signup-btn:hover {
-  background-color: #d62828 !important;
+  background-color: #004848 !important;
 }
 
 .login-btn:hover {
-  background-color: #d62828 !important;
+  background-color: #004848 !important;
   color: white !important;
 }
 
@@ -255,14 +255,14 @@ body {
 
 .dropdown-menu a:hover {
   border-radius: 25px !important;
-  background-color: #d62828 !important;
+  background-color: #004848 !important;
   /* background-color:  #009688 !important; */
   color: white !important;
 }
 
 .dropdown-item:hover {
   border-radius: 25px !important;
-  background-color: #d62828 !important;
+  background-color: #004848 !important;
   color: white !important;
 }
 
@@ -306,7 +306,7 @@ body {
 
 /* edit page */
 .edit-btn {
-  background-color: #fe424d !important;
+  background-color: #008080 !important;
   border: none !important;
 }
 
@@ -352,7 +352,7 @@ body {
 
 .about-section h2 {
   font-size: 36px;
-  color: #e63946;
+  color: #008080;
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
@@ -365,7 +365,7 @@ body {
 }
 
 .about-section button {
-  background-color: #e63946;
+  background-color: #008080;
   color: #fff;
   border: none;
   padding: 12px 30px;
@@ -376,7 +376,7 @@ body {
 }
 
 .about-section button:hover {
-  background-color: #c92d3a;
+  background-color: #004848;
 }
 
 /* home page */
@@ -431,7 +431,7 @@ body {
   padding: 15px 40px;
   /* background-color: #6a7b9d; */
   /* background-color: #009688; */
-  background-color: #e63946;
+  background-color: #008080;
   color: white;
   border: none;
   font-size: 18px;
@@ -443,7 +443,7 @@ body {
 
 .hero button:hover {
   /* background-color: #007c6f; */
-  background-color: #d62828;
+  background-color: #004848;
 }
 
 /* Features Section */
@@ -456,7 +456,7 @@ body {
 
 .features h2 {
   font-size: 36px;
-  color: #e63946;
+  color: #008080;
   /* color: #009688; */
   margin-bottom: 50px;
   font-weight: 600;
@@ -485,7 +485,7 @@ body {
 
 .feature i {
   font-size: 40px;
-  color: #e63946;
+  color: #008080;
   margin-bottom: 20px;
 }
 
@@ -500,7 +500,7 @@ body {
 
 /* CTA Section */
 .cta {
-  background: linear-gradient(45deg, #9b1b25, #fcc859);
+  background: linear-gradient(45deg, #008080, #003434);
   opacity: .7;
   padding: 80px 50px;
   margin-bottom: 3rem;
@@ -604,7 +604,7 @@ input.form-control {
 }
 
 .new-h3 {
-  color: #e63946;
+  color: #008080;
   /* Rentora brand color */
   font-size: 30px;
   font-weight: bold;
@@ -620,13 +620,13 @@ input.form-control {
 
 
 .new-btn {
-  background-color: #e63946;
-  border-color: #e63946;
+  background-color: #008080;
+  border-color: #008080;
 }
 
 .new-btn:hover {
-  background-color: #c92d3a;
-  border-color: #c92d3a;
+  background-color: #004848;
+  border-color: #004848;
 }
 
 .new-btn {
@@ -638,7 +638,7 @@ input.form-control {
 }
 
 .new-btn:hover {
-  background-color: #d32f2f;
+  background-color: #004848;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 

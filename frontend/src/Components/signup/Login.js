@@ -68,7 +68,7 @@ function Login() {
     return (
         <>
             <ToastContainer limit={1} />
-            <h1 className="text-center mt-4 mb-4" style={{ color: '#e63946' }}>Login</h1>
+            <h1 className="text-center mt-4 mb-4" style={{ color: '#008080' }}>Login</h1>
             <div className="row mb-5 justify-content-center">
                 <div className="col-md-6 col-lg-4 p-4 shadow rounded" style={{ backgroundColor: '#fdfdff' }}>
                     <form onSubmit={handleSubmit}>
@@ -97,7 +97,7 @@ function Login() {
                             />
                         </div>
                         <div className="mb-4 d-flex justify-content-between align-items-center">
-                            <Link to="/signup" style={{ textDecoration: 'none', color: '#e63946' }}>Don't have an account?</Link>
+                            <Link to="/signup" style={{ textDecoration: 'none', color: '#008080' }}>Don't have an account?</Link>
                             <button
                                 className="btn"
                                 style={{ backgroundColor: '#e63946', color: 'white', fontWeight: 'bold' }}
