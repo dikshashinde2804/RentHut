@@ -35,7 +35,7 @@ function Signup() {
         setLoading(true);
         try {
             const { data } = await axios.post(
-                'https://rentora-server.vercel.app/signup',
+                'https://renthut-backend.vercel.app/signup',
                 { ...inputValue },
                 { withCredentials: true }
             );

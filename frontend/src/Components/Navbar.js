@@ -32,7 +32,7 @@ function Navbar() {
         setIsOpen(false);
         setLoading(true); // Set loading to true when logout is initiated
         try {
-            const response = await axios.get("https://rentora-server.vercel.app/logout",
+            const response = await axios.get("https://renthut-backend.vercel.app/logout",
                 { withCredentials: true });
             setLoading(false); // Set loading to false once response is received
             const { success, message } = response.data;

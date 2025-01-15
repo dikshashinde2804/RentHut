@@ -13,16 +13,16 @@ function Footer() {
 
 
                     <div style={{ margin: "20px 0" }}>
-                        <a href="https://www.facebook.com/parikshit.chouhan.1/" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
+                        <a href="#" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="https://twitter.com" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
+                        <a href="#" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="https://www.instagram.com/itsparikshit?igsh=MWZyYmoyeDYzY3ltcQ==" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
+                        <a href="#" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="https://linkedin.com/in/parikshit-chouhan-a31023259" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
+                        <a href="#" target="_blank" style={{ margin: "0 15px", color: "white", textDecoration: "none", fontSize: "20px" }}>
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>

@@ -86,7 +86,7 @@ const ListingDetails = () => {
     useEffect(() => {
         const fetchListingDetails = async () => {
             try {
-                const response = await axios.get(`https://rentora-server.vercel.app/listings/${id}`, {
+                const response = await axios.get(`https://renthut-backend.vercel.app/listings/${id}`, {
                     headers: {
                         'Authorization': `Bearer ${authToken}`,
                     }
@@ -116,7 +116,7 @@ const ListingDetails = () => {
         try {
             // Get session data for Cashfree
             const res = await axios.post(
-                `https://rentora-server.vercel.app/createBooking/${id}`,
+                `https://renthut-backend.vercel.app/createBooking/${id}`,
                 { userId },
                 {
                     headers: {
@@ -129,7 +129,7 @@ const ListingDetails = () => {
                 const { order_id: orderId, payment_session_id: sessionId } = res.data;
                 const checkoutOptions = {
                     paymentSessionId: sessionId,
-                    returnUrl: `https://rentora.vercel.app/verify/${orderId}/${userId}/${id}`, // Pointing to frontend URL
+                    returnUrl: `https://renthut-backend.vercel.app/verify/${orderId}/${userId}/${id}`, // Pointing to frontend URL
                     headers: {
                         "user-id": userId,
                         "listing-id": id,
@@ -160,7 +160,7 @@ const ListingDetails = () => {
     const confirmDelete = async () => {
         setShowConfirm(false);
         try {
-            const response = await axios.delete(`https://rentora-server.vercel.app/listing/${id}`, {
+            const response = await axios.delete(`https://renthut-backend.vercel.app/listing/${id}`, {
                 headers: {
                     Authorization: `Bearer ${authToken}`,
                 },
