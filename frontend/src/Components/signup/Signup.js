@@ -67,7 +67,7 @@ function Signup() {
 
     return (
         <>
-            <h1 className="text-center mt-4 mb-4" style={{ color: '#e63946' }}>Sign Up</h1>
+            <h1 className="text-center mt-4 mb-4" style={{ color: '#008080' }}>Sign Up</h1>
             <div className="row mb-5 justify-content-center">
                 <div className="col-md-6 col-lg-4 p-4 shadow rounded" style={{ backgroundColor: '#fdfdff' }}>
                     <form onSubmit={handleSubmit}>
@@ -127,10 +127,10 @@ function Signup() {
                             />
                         </div>
                         <div className="mb-4 signp-bottom">
-                            <Link to="/login" style={{ textDecoration: 'none', color: '#e63946' }}>Already have an account?</Link>
+                            <Link to="/login" style={{ textDecoration: 'none', color: '#008080' }}>Already have an account?</Link>
                             <button 
                                 className="btn" 
-                                style={{ backgroundColor: '#e63946', color: 'white', fontWeight: 'bold' }} 
+                                style={{ backgroundColor: '#004848', color: 'white', fontWeight: 'bold' }} 
                                 disabled={loading} 
                             >
                                 {loading ? 'Signing Up...' : 'Sign Up'}

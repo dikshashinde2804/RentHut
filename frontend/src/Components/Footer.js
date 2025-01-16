@@ -9,7 +9,7 @@ function Footer() {
 
 
                     <p style={{ margin: "0", fontSize: "18px", fontWeight: "bold" }}>© 2024 RentHut - Your Comfortable Escape</p>
-                    <p style={{ margin: "0", fontSize: "15px" }}>Developed & maintained by Diksha Shinde</p>
+                    <p style={{ margin: "0", fontSize: "15px" }}>Developed & maintained by Parikshit Chouhan</p>
 
 
                     <div style={{ margin: "20px 0" }}>

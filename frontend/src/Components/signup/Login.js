@@ -100,7 +100,7 @@ function Login() {
                             <Link to="/signup" style={{ textDecoration: 'none', color: '#008080' }}>Don't have an account?</Link>
                             <button
                                 className="btn"
-                                style={{ backgroundColor: '#e63946', color: 'white', fontWeight: 'bold' }}
+                                style={{ backgroundColor: '#004848', color: 'white', fontWeight: 'bold' }}
                                 disabled={loading}
                             >
                                 {loading ? 'Logging in...' : 'Login'}
