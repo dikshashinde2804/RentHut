@@ -1,4 +1,4 @@
-# Rentora
+# RentHut
 
 Rentora is a web-based platform that connects individuals seeking accommodations with homeowners or property managers who want to rent out their properties. The platform provides a seamless experience for both tenants and property owners, offering features like easy booking, payment integration, and listing management.
 
